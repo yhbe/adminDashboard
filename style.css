@@ -7,9 +7,15 @@ p{
   margin: 0px;
   font-size: 18px;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+img{
+  cursor: pointer;
 }
 
 .container{
+  margin-top: 5px;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -30,10 +36,11 @@ p{
 }
 
 input[type="search"]{
-  height: 35px;
+  height: 45px;
   border-radius: 16px;
   border: none;
   background-color: rgb(230, 229, 229);
+  font-size: 2rem;
   
 }
 
@@ -41,7 +48,8 @@ input[type="search"]{
   display: grid;
   grid-template-columns: min-content min-content min-content;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
 }
 
 
@@ -53,9 +61,40 @@ input[type="search"]{
   align-items: center;
 }
 
+.hero-lower-left{
+  display: grid;
+  grid-template-columns: min-content min-content;
+  align-items: center;
+}
+
+.hero-lower-left-text{
+  font-size: 26px;
+}
+
+.hero-lower-right{
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  gap: 20px;
+  justify-content:center;
+}
+
+.hero-button{
+  border: none;
+  padding: 15px 26px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  background-color: blueviolet;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
 
 .small-image{
   width: 65px;
   height: 65px;
   object-fit: cover;
+  border-radius: 32px;
+  cursor: pointer;
 }
