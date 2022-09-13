@@ -1,3 +1,3 @@
-Photo by Marliese Streeflandon Unsplash
+Dog Photo by Marliese Streeflandon Unsplash
 
 # adminDashboard
