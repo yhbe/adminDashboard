@@ -2,7 +2,6 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: ;
 }
 p{
   margin: 0px;
@@ -19,6 +18,11 @@ p{
   white-space: nowrap;
 }
 
+.bigger{
+  font-size: 33px;
+  font-weight: bolder;
+}
+
 img{
   cursor: pointer;
 }
@@ -28,6 +32,10 @@ img{
   display: grid;
   grid-template-columns: minmax(275px,325px) 1fr;
   gap: 8px;
+}
+
+.whole-left-hero{
+  margin-left: 25px;
 }
 
 
@@ -94,7 +102,7 @@ input[type="search"]{
   border-radius: 20px;
   color: white;
   font-weight: 600;
-  background-color: blueviolet;
+  background-color: #737373;
   font-size: 17px;
   cursor: pointer;
 
@@ -105,13 +113,14 @@ input[type="search"]{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-area: 1 / 1 / 5 / 1;
-  background-color: rgb(101, 35, 206);
+  background-color: #404040;
   justify-content: center;
 }
 
 .sidebar-one{
   display: grid;
   gap: 15px;
+  height: 150px;
 }
 
 
@@ -120,6 +129,14 @@ input[type="search"]{
   grid-template-columns: min-content min-content;
   gap: 50px;
   align-items: center;
+}
+
+.sidebar-title{
+  display: grid;
+  grid-template-columns: min-content min-content;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
 }
 
 .small-image{
