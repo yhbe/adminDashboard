@@ -2,10 +2,19 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background-color: ;
 }
 p{
   margin: 0px;
   font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.span-text{
+  color: white;
+  margin: 0px;
+  font-size: 25px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -17,7 +26,8 @@ img{
 .container{
   margin-top: 5px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: minmax(275px,325px) 1fr;
+  gap: 8px;
 }
 
 
@@ -25,7 +35,7 @@ img{
 .hero{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-column: 2 / 4;
+  grid-column: 2/3;
 }
 
 .hero-left{
@@ -80,16 +90,37 @@ input[type="search"]{
 
 .hero-button{
   border: none;
-  padding: 15px 26px;
+  padding: 12px 26px;
   border-radius: 20px;
   color: white;
   font-weight: 600;
   background-color: blueviolet;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
 
 }
 
+
+.sidebar{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-area: 1 / 1 / 5 / 1;
+  background-color: rgb(101, 35, 206);
+  justify-content: center;
+}
+
+.sidebar-one{
+  display: grid;
+  gap: 15px;
+}
+
+
+.sidebar-one-div{
+  display: grid;
+  grid-template-columns: min-content min-content;
+  gap: 50px;
+  align-items: center;
+}
 
 .small-image{
   width: 65px;
