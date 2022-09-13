@@ -137,7 +137,7 @@ input[type="search"]{
 .sidebar-one{
   display: grid;
   margin-top: 60px;
-  gap: 15px;
+  gap: 35px;
 }
 
 
@@ -164,7 +164,7 @@ input[type="search"]{
 .sidebar-two{
   display: grid;
   grid-template-rows: min-content min-content min-content;
-  gap: 15px;
+  gap: 35px;
   margin-top: 50px;
 }
 
