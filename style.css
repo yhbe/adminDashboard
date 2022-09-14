@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 
 p{
   margin: 0px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -43,7 +43,7 @@ label{
 .container{
   display: grid;
   grid-template-columns: minmax(min-content,325px) 1fr;
-  grid-template-rows: 0fr 1fr;
+  grid-template-rows: 0fr 0fr;
 }
 
 .whole-left-hero{
@@ -180,23 +180,22 @@ input[type="search"]{
 
 
 .main{
-  display: flex;
-  grid-template-columns: 2fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 502px;
+  grid-template-rows: 1fr;
   margin: 20px;
 }
 
 
 .main-one{
-  display: grid;
-  place-self: flex-start;
-  =: 100;
+  grid-area: 1 / 1 / 3 / 2;
   }
 
 .cards{
-    width: 341px;
     background-color: white;
     width: 318px;
     height: 248px;
+    margin-bottom: 50px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -213,9 +212,9 @@ input[type="search"]{
 }
 
 
-.main-one-text{   
+.main-one-text{
    font-size: 25px;
-  margin: 10px;
+   margin: 10px;
 }
 
 .cards-emote{
@@ -245,4 +244,25 @@ input[type="search"]{
 
 hr.solid {
   border-top: 3px solid #bbb;
+}
+
+.small-text{
+  font-size: 13px;
+}
+
+.main-three-divs{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.main-three-divs img{
+  padding-right: 5px;
+}
+
+.main-three-container{
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
 }
