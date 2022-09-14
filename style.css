@@ -2,9 +2,15 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color:  #737373;
+  background-color:  
+  #e5e7eb;
 }
 
+
+*{
+  font-family: 'Forum', cursive;
+font-family: 'Roboto', sans-serif;
+}
 
 p{
   margin: 0px;
@@ -176,6 +182,7 @@ input[type="search"]{
 .main{
   display: flex;
   grid-template-columns: 2fr 1fr;
+  margin: 20px;
 }
 
 
@@ -188,7 +195,7 @@ input[type="search"]{
 .cards{
     width: 341px;
     background-color: white;
-    width: 355px;
+    width: 318px;
     height: 248px;
     padding: 10px;
     border-radius: 10px;
@@ -202,13 +209,40 @@ input[type="search"]{
 
 .card-text{
   white-space: normal;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 
-.main-one-text{
-  color: white;
-  font-size: 35px;
-  margin: 15px 15px 30px 15px;
+.main-one-text{   
+   font-size: 25px;
+  margin: 10px;
 }
 
+.cards-emote{
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-right: 5px;
+}
+
+.main-two-text{
+  white-space: normal;
+}
+
+.main-two-smaller-text{
+  font-size: 15px;
+}
+
+
+
+.main-two-card-container{
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
