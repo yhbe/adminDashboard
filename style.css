@@ -74,6 +74,7 @@ input[type="search"]{
   border: none;
   background-color: rgb(230, 229, 229);
   font-size: 2rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   
 }
 
@@ -91,8 +92,7 @@ input[type="search"]{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 10px;
-  padding-top: 15px;
+  margin: 20px 10px 10px;
 }
 
 .hero-lower-left{
@@ -122,6 +122,7 @@ input[type="search"]{
   background-color: #737373;
   font-size: 17px;
   cursor: pointer;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -198,6 +199,7 @@ input[type="search"]{
     margin-bottom: 50px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cards-containers{
@@ -214,6 +216,7 @@ input[type="search"]{
 
 .main-one-text{
    font-size: 25px;
+   font-weight: 700;
    margin: 10px;
 }
 
@@ -239,6 +242,7 @@ input[type="search"]{
   background-color: white;
   padding: 10px;
   margin: 10px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -265,4 +269,12 @@ hr.solid {
   background-color: white;
   padding: 10px;
   margin: 10px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.bold-text{
+  font-weight: 700;
+  /* font-size: 20px;
+  margin-bottom: 2px; */
 }
