@@ -157,7 +157,10 @@ input[type="search"]{
 }
 
 .sidebar-one-div:hover{
- box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, 0.2);
+ box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.2);
+ width: min-content;
+ padding: 10px;
+ transition: 1.2s 
 }
 
 .sidebar-title{
