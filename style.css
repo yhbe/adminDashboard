@@ -209,7 +209,7 @@ input[type="search"]{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
-    border-left: 10px solid #fcd34d;
+    border-left: 10px solid rgb(255 218 96);
 }
 
 .cards-containers{
