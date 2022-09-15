@@ -189,9 +189,9 @@ input[type="search"]{
 
 .main{
   display: grid;
-  grid-template-columns: 2fr 502px;
-  grid-template-rows: 1fr;
   margin: 20px;
+  grid-template-columns: 2fr 1fr;
+  gap: 3px;
 }
 
 
@@ -212,8 +212,8 @@ input[type="search"]{
 
 .cards-containers{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
 }
 
 .card-text{
